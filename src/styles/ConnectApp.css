@@ -1,0 +1,149 @@
+
+.user-email{
+    color: #FFF;
+    font-family: Hauora;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: absolute;
+    top: 45px;
+    right: 45px; 
+}
+.logo {
+    color: #FFF;
+    font-family: Hauora;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    position: absolute;
+    top: 5px;
+    left: 20px; 
+    z-index: 10; 
+}
+.main-container{
+    display: flex;
+    width: 70%;
+    height: 100%;
+    padding: 51px 22px 20px 22px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 37px;
+    text-align: left;
+
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    flex-grow: 1;
+    box-sizing: border-box; 
+    justify-content: center;
+}
+
+.heading{
+    align-self: stretch;
+    color: #FFF;
+    font-family: Hauora;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.step-1{
+    display: flex;
+    align-items: center;
+    gap: 43px;
+    align-self: stretch;
+}
+.step-text{
+    flex: 1 0 0;
+    color: #FFF;
+    font-family: Hauora;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.download-app-button{
+    display: flex;
+    height: 47px;
+    padding: 9px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border-radius: 12px;
+    background: #E6E6E6;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+}
+.app-icon{
+
+}
+.download{
+    color: #000;
+    font-family: Hauora;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.step-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    align-self: stretch;
+}
+.qr-code{
+    width: 151px;
+    height: 151px;
+    aspect-ratio: 1/1;
+    border-radius: 20px;
+    background:lightgray 50% / cover no-repeat;
+}
+.step-3{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    align-self: stretch;
+}
+.test-noti-button{
+    display: flex;
+    height: 47px;
+    padding: 9px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border-radius: 12px;
+    background: #E6E6E6;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    color: #000;
+    font-family: Hauora;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.move-next{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+}
+.next-button{
+    display: flex;
+    padding: 6px 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 12px;
+    background: #E6E6E6;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    color: #000;
+    font-family: Hauora;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}

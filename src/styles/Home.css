@@ -1,0 +1,105 @@
+html{
+    background: #121212;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: space-between; 
+}
+
+button{
+    cursor: pointer;
+}
+.logo {
+    color: #FFF;
+    font-family: Hauora;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    position: absolute;
+    top: 5px;
+    left: 20px; 
+    z-index: 10; 
+}
+
+.main-container{
+    display: flex;
+    width: 60%;
+    height: 100%;
+    padding: 51px 22px 20px 22px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 120px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    flex-grow: 1;
+    box-sizing: border-box;
+    justify-content: center;
+}
+.hero-section{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 34px;
+    align-self: stretch;
+    padding-top: 30px;
+}
+.hero-lines{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 11px;
+    align-self: stretch;
+}
+.hero-line-1{
+    align-self: stretch;
+    color: #FFF;
+    font-family: Hauora;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.hero-line-2{
+    align-self: stretch;
+    color: #FFF;
+    font-family: Hauora;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.get-started-button{
+    display: flex;
+    padding: 16px 31px 15px 32px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background: #FFF;
+    color: #000;
+    font-family: Hauora;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.bottom-text{
+   align-self: stretch;
+   color: #B9B9B9;
+    font-family: Hauora;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}

@@ -1,14 +1,13 @@
-import { useState } from 'react'
 import './App.css'
+import Home from './components/Home'
+import Login from './components/Login'
+import ConnectApp from './components/ConnectApp'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <button onClick={() => window.location.href = '/login'}>
-          Get started
-        </button>
+      <Home/>
     </>
   )
 }

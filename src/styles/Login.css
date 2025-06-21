@@ -1,0 +1,89 @@
+html{
+    background: #121212;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: space-between; 
+}
+button{
+    cursor: pointer;
+}
+.logo {
+    color: #FFF;
+    font-family: Hauora;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    position: absolute;
+    top: 5px;
+    left: 20px; 
+    z-index: 10; 
+}
+.main-container{
+    display: flex;
+    width: 60%;
+    height: 100%;
+    padding: 151px 22px 20px 22px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 240px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    flex-grow: 1;
+    box-sizing: border-box;
+    justify-content: center;
+}
+.login-section{
+    display: flex;
+    padding: 0px 26px;
+    flex-direction: column;
+    align-items: center;
+    gap: 55px;
+    align-self: stretch;
+}
+.disclaimer{
+    align-self: stretch;
+    color: #FFF;
+    font-family: Hauora;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+.login-button{
+    display: flex;
+    padding: 15px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    background: #FFF;
+    color: #000;
+    font-family: Hauora;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.bottom-text{
+    align-self: stretch;
+    color: #B9B9B9;
+    font-family: Hauora;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
