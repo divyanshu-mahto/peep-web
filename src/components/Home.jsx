@@ -1,11 +1,12 @@
 import '../styles/Home.css';
 import notificationSvg from '../assets/notification.svg';
+import {Link, useNavigate} from 'react-router-dom'
 
 const Home = () => {
 
     return (
         <>
-         <div className="logo-home">peep.email</div>
+         <div className="logo-home"><Link to={"/"}>peep.email</Link></div>
          <div className="main-container-home">
             <div className="hero-section">
                 <div className="hero-lines">

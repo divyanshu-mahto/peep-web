@@ -17,6 +17,26 @@ body{
 }
 button{
     cursor: pointer;
+    border: none;
+}
+a{
+    text-decoration: none;
+    color: #FFF;
+}
+.invite-container-home{
+    display: flex;
+    width: 60vh;
+    height: 100%;
+    padding: 40px 22px 20px 22px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 42px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    flex-grow: 1;
+    box-sizing: border-box;
+    justify-content: center;
 }
 .bottom-text{
     align-self: stretch;
@@ -27,4 +47,80 @@ button{
     font-weight: 400;
     line-height: normal; 
     padding-top: 30%;
+}
+.invite-section{
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    align-self: stretch;
+    width: 100%;
+}
+.input-box{
+    border-radius: 12px;
+    background: #262626;
+    width: 100%;
+    height: 100%;
+    border: none;
+    color: #fff;
+    font-family: Hauora;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding-inline: 12px;
+}
+.enter-button{
+    display: flex;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 100%;
+    border-radius: 12px;
+    background: #fff;
+    color: #000;
+    font-family: Hauora;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+@media screen and (max-width: 750px){
+    .invite-container-home{
+        display: flex;
+        width: 85vw;
+        height: 100%;
+        padding: 40px 22px 20px 22px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 42px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        flex-grow: 1;
+        box-sizing: border-box;
+        justify-content: center;
+    }
+    .hero-line-2{
+        font-size: 20px;
+    }
+
+    .get-started-button{
+        display: flex;
+        padding: 15px 20px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 30px;
+        border: none;
+        background: #FFF;
+        color: #000;
+        font-family: Hauora;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        box-shadow: 0px 0px 70px 1px rgba(121, 167, 193, 0.2);
+    }
+
 }
